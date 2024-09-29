@@ -1,0 +1,26 @@
+.drum-pad {
+  background-color: #444;
+  border: none;
+  border-radius: 5px;
+  color: #eee;
+  font-size: 1.5rem;
+  padding: 35px;
+  cursor: pointer;
+  transition: all 0.2s ease; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.drum-pad:hover {
+  background-color: #555;
+  transform: translateY(-2px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.drum-pad.active {
+  background-color: #777; 
+  box-shadow: 0 0 10px #fff;
+}
+
+.drum-pad .clip {
+  display: none; 
+}

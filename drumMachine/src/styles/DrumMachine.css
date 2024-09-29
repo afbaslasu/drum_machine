@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure it covers the entire viewport height */
+  min-width: 100vw; /* Ensure it covers the entire viewport height */
+  background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #0000ff, #ff00ff); /* Example gradient, customize as needed */
+}
+
+.drum-machine {
+  width: 700px;
+  height: 350px;
+  background-color: #222;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between; 
+}
+
+.pad-bank {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px; 
+}
+
+.author-name {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%;
+  text-align: center;
+  padding: 10px 0; /* Add some padding for better spacing */
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background (optional) */
+  color: white; /* Adjust text color if needed */
+  margin-top: 0;
+}
+
+.accreditation {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  margin-bottom: 0;
+}
